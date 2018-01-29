@@ -1,0 +1,290 @@
+
+
+/*
+COLORS
+------
+Main G3: cc0000
+
+
+ */
+
+
+/* General */
+body {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Headers */
+h1 {
+    color: #cc0000;
+}
+
+h4 {
+    color: #222;
+}
+
+
+/* Misc */
+
+p {
+    text-indent: 2rem;
+}
+
+.centered-text {
+    text-align: center;
+}
+
+p.centered-text {
+    text-indent: 0;
+}
+
+.vod {
+    border: none;
+    float: right;
+}
+
+.left {
+    margin-right: 1rem;
+}
+
+.right {
+    margin-left: 1rem;
+}
+
+
+
+
+
+#page-container {
+    display: grid;
+    grid-template-columns: 1fr 6fr;
+}
+
+#main-content {
+    margin-left: 3rem;
+    margin-right: 3rem;
+}
+
+/* Banner Stuff */
+
+#banner {
+    max-width: 100%;
+}
+
+#banner-overlay {
+    background-color: #aaa;
+    width: 100%;
+    height: 100%;
+}
+
+#banner-label {
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color: #aaa;
+}
+
+#banner-label h1 {
+    color: #cc0000;
+    margin: 0;
+    padding: 0;
+}
+
+
+
+
+/* Navigation Bar */
+ul#nav {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #f1f1f1;
+    /* position: fixed; */
+    height: 100%;
+    width: 100%;
+    display: table;
+    overflow: auto;
+}
+
+ul#nav li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+ul#nav li a.active {
+    background-color: #cc0000;
+    color: white;
+}
+
+ul#nav li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+}
+
+
+
+/* Home Page */
+#home ul#nav li a.active {
+    background-color: #ff00ff;
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+/* G3 Page */
+#overview {
+    /* display: grid;
+    grid-template-columns: 1fr 3fr 1fr; */
+}
+
+.info-box {
+    border-style: solid;
+    border-color: #333;
+    border-width: 0.1rem;
+}
+
+#table-of-contents {
+    float: left;
+
+
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+    padding-bottom: 0;
+    /* height: 25rem; */
+    /* width: 10rem; */
+    background: linear-gradient(#cc0000, black);
+    border: none;
+}
+
+#table-of-contents h4 {
+    margin-bottom: 1rem;
+    color: white;
+}
+
+#table-of-contents a {
+    color: white;
+    text-decoration: none;
+}
+#table-of-contents a:hover {
+    color: #ccc;
+}
+#table-of-contents a:visited {
+    color: #aaa;
+}
+
+
+#tournament-info {
+    float: right;
+    margin-left: 1rem;
+    padding: 1rem;
+    padding-top: 0;
+    /* height: 15rem; */
+    width: 10rem;
+
+    border: none;
+    background: linear-gradient(#cc0000, black);
+}
+
+#tournament-info p {
+    text-indent: 0;
+    color: white;
+    font-size: 0.9rem;
+}
+#tournament-info h4 {
+    text-align: center;
+    color: white;
+}
+
+ul#table {
+    list-style-type:none;
+    padding-left: 1rem;
+}
+
+/* Day 1 */
+#day-1-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 1rem;
+}
+.grid-img {
+    max-width: 100%;
+}
+
+
+/* Day 2 */
+#day-2 {
+    margin-top: 3rem;
+}
+
+#set-highlights {
+    display: grid;
+    grid-template-rows: repeat(5, 1fr);
+    grid-row-gap: 0;
+}
+
+#day-2-gallery {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 0.5rem;
+    grid-row-gap: 0.5rem;
+}
+
+
+/* Day 3 */
+
+#day-3 {
+    margin-top: 3rem;
+}
+
+#day-3 h1 {
+    text-align: center;
+    margin-bottom: 0.3rem;
+}
+
+#finals-header {
+    margin-bottom: 0.3rem;
+}
+#finals-detail {
+    margin-top: 0.3rem;
+}
+#civic_center {
+    width: 100%;
+}
+
+.vod-link {
+    text-align: center;
+    display: block;
+    margin-top: 0;
+}
+
+#peach {
+    text-indent: 0;
+}
+
+#champs {
+    width: 100%;
+}
+
+.image {
+    width: 100%;
+}
+
+
+/* Recap */
+#recap {
+    margin-top: 2rem;
+}
+
+
+/* Contact Page */
