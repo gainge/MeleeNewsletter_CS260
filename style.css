@@ -127,8 +127,35 @@ ul#nav li a:hover:not(.active) {
 
 
 /* Home Page */
+/*
+Colors:
+        414058
+        C69D73
+        F17938
+        3C38F1
+
+
+
+        
+
+*/
 #home ul#nav li a.active {
-    background-color: #ff00ff;
+    background-color: #3f7fbe;
+    color: white;
+}
+
+#home-banner-sep {
+    background-color: #aaa;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    height: 0.1rem;
+}
+
+#home #main-content {
+    background-color: #3C38F1;
+}
+
+#home {
     color: white;
 }
 
