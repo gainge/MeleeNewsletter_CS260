@@ -149,8 +149,6 @@ Colors:
 
 #home #main-content {
     margin-top: 2rem;
-    background-color: #f1f1f1;
-    padding: 1rem;
 }
 
 #home {
@@ -159,16 +157,27 @@ Colors:
 #about-content {
     display: grid;
     grid-template-columns: 70% 30%;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    padding-top: 0;
 }
 
 #about-content p {
     display: inline-block;
 }
 
+#featured-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+    background-color: #f1f1f1;
+    padding: 1rem;
+    padding-top: 0;
+
+    margin-top: 2rem;
+}
+
 
 #home a.button {
-    background-color: #3F7FBE;
-    border: 2px solid #3F7FBE;
     border-radius: 4px;
     color: white;
     padding: 15px 32px;
@@ -177,7 +186,7 @@ Colors:
     display: inline-block;
     font-size: 16px;
     transition-duration: 0.4s;
-
+    margin-left: 1rem; /* This is to counteract the container padding lol */
 }
 
 #home a.button:hover {
@@ -185,7 +194,21 @@ Colors:
     color: black;
 }
 
+#home a.b1 { /* Subscribe Button */
+    background-color: #3F7FBE;
+    border: 2px solid #3F7FBE;
+}
+
+#home a.b2 { /* Genesis Button */
+    background-color: #cc0000;
+    border: 2px solid #cc0000;
+}
+
+
 #subscribe-button-container {
+    text-align: center;
+}
+#g3-button-container {
     text-align: center;
 }
 
