@@ -133,11 +133,7 @@ Colors:
         C69D73
         F17938
         3C38F1
-
-
-
-        
-
+        3F7FBE
 */
 #home ul#nav li a.active {
     background-color: #3f7fbe;
@@ -152,11 +148,45 @@ Colors:
 }
 
 #home #main-content {
-    background-color: #3C38F1;
+    margin-top: 2rem;
+    background-color: #f1f1f1;
+    padding: 1rem;
 }
 
 #home {
+}
+
+#about-content {
+    display: grid;
+    grid-template-columns: 70% 30%;
+}
+
+#about-content p {
+    display: inline-block;
+}
+
+
+#home a.button {
+    background-color: #3F7FBE;
+    border: 2px solid #3F7FBE;
+    border-radius: 4px;
     color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+
+}
+
+#home a.button:hover {
+    background-color: #fff;
+    color: black;
+}
+
+#subscribe-button-container {
+    text-align: center;
 }
 
 
