@@ -100,9 +100,10 @@ ul#nav {
     margin: 0;
     padding: 0;
     background-color: #f1f1f1;
-    /* position: fixed; */
+    position: fixed;
     height: 100%;
-    width: 100%;
+    /* width: 100%; */
+    width: 14.8vw;
     display: table;
     overflow: auto;
 }
@@ -205,6 +206,8 @@ Colors:
     font-size: 16px;
     transition-duration: 0.4s;
     margin-left: 1rem; /* This is to counteract the container padding lol */
+
+    margin-top: 4.6rem;
 }
 
 #home a.button:hover {
@@ -449,3 +452,66 @@ body#archive div#main-content a:hover {
 
 
 /* Contact Page */
+
+
+
+#contact ul#nav li a.active {
+    background-color: #3f7fbe;
+    color: white;
+}
+
+#contact-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+#contact-form-container {
+    text-align: center;
+    margin-top: 1.5rem;
+}
+
+#contact-header {
+    margin-top: 2.5rem;
+}
+
+#contact .footer {
+    position: fixed;
+    width: 85vw;
+}
+
+#email {
+    width: 14rem;
+    height: 1.5rem;
+}
+
+#subscribe-submit {
+    margin-top: 0.5rem;
+    width: 10rem;
+    height: 1.5rem;
+
+    border-radius: 4px;
+    color: white;
+    /* padding: 15px 32px; */
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    transition-duration: 0.4s;
+
+    background-color: #3F7FBE;
+    border: 2px solid #3F7FBE;
+}
+
+#subscribe-submit:hover {
+    background-color: #fff;
+    color: #000;
+}
+
+
+
+
+
+
+
+
+/* Just a comment so atom doesn't cut my file length */
