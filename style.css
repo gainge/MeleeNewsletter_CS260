@@ -138,6 +138,10 @@ ul#nav li a:hover:not(.active) {
     margin-right: 3rem;
 }
 
+.footer p {
+    text-indent: 0;
+}
+
 
 
 /* Home Page */
@@ -396,6 +400,10 @@ ul#table {
     height: 0.1rem;
 }
 
+#archive p {
+    text-indent: 0;
+}
+
 body#archive div#main-content {
     margin-top: 3rem;
 }
@@ -415,7 +423,11 @@ body#archive div#main-content a {
 }
 
 body#archive div#main-content a:visited {
-    color: #3C38F1;
+    color: #3f3fbe;
+}
+
+body#archive div#main-content a:hover {
+    text-decoration: underline;
 }
 
 #archive-container {
