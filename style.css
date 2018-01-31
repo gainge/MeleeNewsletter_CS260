@@ -388,6 +388,51 @@ ul#table {
     color: white;
 }
 
+#archive-banner-sep {
+    background-color: #aaa;
+    margin-left: 3rem;
+    margin-right: 3rem;
+    margin-top: 0.3rem;
+    height: 0.1rem;
+}
+
+body#archive div#main-content {
+    margin-top: 3rem;
+}
+
+body#archive div#page-container {
+    height: 100vh;
+}
+
+body#archive div.footer {
+    position: fixed;
+    width: 85vw;
+}
+
+body#archive div#main-content a {
+    color: #3f7fbe;
+    text-decoration: none;
+}
+
+body#archive div#main-content a:visited {
+    color: #3C38F1;
+}
+
+#archive-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 0.3rem;
+    grid-row-gap: 0.3rem;
+    text-align: center;
+}
+
+.archive-item {
+    height: 2.5rem;
+    /* padding-left: 1rem; */
+    padding-top: 1.3rem;
+    background: #f1f1f1;
+}
+
 
 
 
