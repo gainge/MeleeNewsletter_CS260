@@ -391,7 +391,7 @@ ul#table {
 
 /* Archive */
 #archive ul#nav li a.active {
-    background-color: #ff00ff;
+    background-color: #3f7fbe;
     color: white;
 }
 
@@ -467,11 +467,11 @@ body#archive div#main-content a:hover {
 
 #contact-form-container {
     text-align: center;
-    margin-top: 1.5rem;
+    margin-top: 2.3rem;
 }
 
 #contact-header {
-    margin-top: 2.5rem;
+    margin-top: 3.5rem;
 }
 
 #contact .footer {
@@ -505,6 +505,56 @@ body#archive div#main-content a:hover {
 #subscribe-submit:hover {
     background-color: #fff;
     color: #000;
+}
+
+#contact-sep {
+    height: 0.2rem;
+    border-bottom: #ccc solid thin;
+}
+
+#byu-melee-container {
+    margin-top: 3rem;
+    padding: 1rem;
+    padding-top: 1.5rem;
+
+    /* color: #fff; */
+
+    background-color: #b2cbe5;
+}
+
+#social-container {
+    display: grid;
+
+    grid-template-columns: 15% 85%;
+    width: 100%;
+}
+
+#social-container a {
+    color: #3F7FBE;
+}
+#social-container a:hover {
+    color: white;
+}
+#social-container a:visited {
+    color: #3f3fbe;
+}
+
+.social-img {
+    max-width: 5vw;
+    text-align: center;
+}
+
+.media-link {
+    font-size: 1.5rem;
+    text-decoration: none;
+}
+
+.link-container {
+    padding-top: 1.0rem;
+    margin-left: -1.9rem;
+}
+
+.img-container {
 }
 
 
